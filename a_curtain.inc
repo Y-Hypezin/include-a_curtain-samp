@@ -169,7 +169,12 @@ public OnPlayerUpdateCurtain(playerid, time, permanence, curtainid, bool:invert,
             } 
             else
             {
-                PlayerTextDrawBoxColor(playerid, ___curtain_td_var_[playerid][0], progress);
+                #if !defined _INC_open_mp
+                    PlayerTextDrawBoxColor(playerid, ___curtain_td_var_[playerid][0], progress);
+                #else
+                    PlayerTextDrawBoxColour(playerid, ___curtain_td_var_[playerid][0], progress);
+                #endif
+
                 PlayerTextDrawShow(playerid, ___curtain_td_var_[playerid][0]);
                
                 // If u get `warning 239: literal array/string passed to a non-const parameter` using pawn compiler 3.10.10
@@ -191,7 +196,11 @@ public OnPlayerUpdateCurtain(playerid, time, permanence, curtainid, bool:invert,
             } 
             else 
             {
-                PlayerTextDrawBoxColor(playerid, ___curtain_td_var_[playerid][0], progress);
+                #if !defined _INC_open_mp
+                    PlayerTextDrawBoxColor(playerid, ___curtain_td_var_[playerid][0], progress);
+                #else
+                    PlayerTextDrawBoxColour(playerid, ___curtain_td_var_[playerid][0], progress);
+                #endif
                 PlayerTextDrawShow(playerid, ___curtain_td_var_[playerid][0]);
                 SetTimerEx("OnPlayerUpdateCurtain", ((time / 2) / 255), false, "iiiiii", playerid, time, permanence, curtainid, invert, (progress + 1));
             }
