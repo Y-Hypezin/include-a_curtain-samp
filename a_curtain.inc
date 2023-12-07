@@ -115,7 +115,7 @@ public OnGameModeInit()
     print("    @date         : 7th dec. 2023                                                  ");
     print("                                                                                   ");
     print("    @author       : zHypezinXzL                                                    ");
-    print("    @contributors : -                                                              ");
+    print("    @contributors : pushline                                                       ");
     print("    @sent by      : zHypezinXzL                                                    ");
     print("    @team         : Hyped                                                          ");
     print("                                                                                   ");
