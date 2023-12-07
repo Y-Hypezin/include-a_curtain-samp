@@ -2,7 +2,7 @@
 
 // @include      : a_curtain
 // @version      : ( 1 )
-// @infoV        : ( 1.0.2.1 ) : discriminator.define(s).function(s).codchange(s)
+// @infoV        : ( 1.2.2.1 ) : discriminator.define(s).function(s).codchange(s)
 // @github       : https://github.com/zHypezinXzL
 // @date         : 7th dec. 2023
 
@@ -111,7 +111,7 @@ public OnGameModeInit()
     print("                                                                                   ");
     print("    @include      : a_curtain                                                      ");
     print("    @version      :( 1 )                                                           ");
-    print("    @infoV        :( 1.0.2.1 )                                                     ");
+    print("    @infoV        :( 1.2.2.1 )                                                     ");
     print("    @date         : 7th dec. 2023                                                  ");
     print("                                                                                   ");
     print("    @author       : zHypezinXzL                                                    ");
