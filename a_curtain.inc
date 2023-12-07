@@ -111,7 +111,7 @@ public OnGameModeInit()
     print("                                                                                   ");
     print("    @include      : a_curtain                                                      ");
     print("    @version      :( 1 )                                                           ");
-    print("    @infoV        :( 1.0.2.0 )                                                     ");
+    print("    @infoV        :( 1.0.2.1 )                                                     ");
     print("    @date         : 7th dec. 2023                                                  ");
     print("                                                                                   ");
     print("    @author       : zHypezinXzL                                                    ");
