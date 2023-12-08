@@ -33,7 +33,49 @@ public OnPlayerConnect (playerid) {
 
 -----------------------------------
 
-**IsCurtainExist:**
+**HidePlayerCurtain:** (new)
+-----------------------------------
+
+**Parameters:**
+```
+(
+  playerid // player id
+);
+```
+
+**Return Values:**
+  - 1: The function executed successfully.
+  - 0: The function failed to execute. The player is not connected, or the textdraw is not created (ShowPlayerCurtain).
+
+**Example Usage:**
+```
+enum {
+  CURTAIN_EX
+};
+
+public OnPlayerConnect (playerid) {
+  ShowPlayerCurtain (playerid, ((1000 * 2) * 2), CURTAIN_EX, (1000 * 2));
+  return
+    1
+  ;
+}
+
+public OnPlayerCurtainClosed (playerid, curtainid) {
+  switch (curtainid) {
+    case CURTAIN_EX: {
+      HidePlayerCurtain (playerid);
+    }
+  }
+  return
+    1
+  ;
+}
+
+```
+
+-----------------------------------
+
+**IsCurtainExist** or **DoesCurtainExist:** (changed name)
 -----------------------------------
 
 **Parameters:**
@@ -44,8 +86,8 @@ public OnPlayerConnect (playerid) {
 ```
 
 **Return Values:**
-  - 1: Curtain exists.
-  - 0: Curtain does not exist, The player is not connected, or the textdraw has already been created.
+  - true: Curtain exists.
+  - false: The curtain does not exist, the textdraw is not created.
 
 **Example Usage:**
 ```
