@@ -2,7 +2,7 @@
 
 | file name | Latest release | Version |
 | :---: | :---: | :---: |
-| a_curtain | [check](https://github.com/zHypezinXzL/include-a_curtain-samp/releases/tag/a_curtain-v1.0.2.0) | v1.0.2.0 |
+| a_curtain | [check](https://github.com/zHypezinXzL/include-a_curtain-samp/releases/tag/a_curtain-v1.2.3.1-support-omp) | v1.2.3.1 |
 
 -------------------------------------------------
 
@@ -12,7 +12,8 @@
 -----------------------------------
 
  - ShowPlayerCurtain `show the curtain`
- - IsCurtainExist `checks if the player has a curtain being shown`
+ - HidePlayerCurtain `destroy the screen curtain`
+ - IsCurtainExist or DoesCurtainExist `checks if the player has a curtain being shown`
 
 -----------------------------------
 
