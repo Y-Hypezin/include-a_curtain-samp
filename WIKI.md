@@ -45,7 +45,7 @@ public OnPlayerConnect (playerid) {
 
 **Return Values:**
   - 1: The function executed successfully.
-  - 0: The function failed to execute. The player is not connected, or the textdraw is not created (ShowPlayerCurtain).
+  - 0: The function failed to execute. The curtain doesn't exist (ShowPlayerCurtain).
 
 **Example Usage:**
 ```
