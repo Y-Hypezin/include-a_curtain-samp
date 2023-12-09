@@ -105,14 +105,12 @@ stock bool: DoesCurtainExists(
 stock HidePlayerCurtain (
     playerid
 ) {
-    if (IsPlayerConnected (playerid) && !IsPlayerNPC (playerid)) {
-        if (DoesCurtainExists (playerid)) {
-            PlayerTextDrawDestroy (playerid, ___curtain_td_var_ [playerid] [0]);
-            ___curtain_td_var_ [playerid] [0] = INVALID_PLAYER_TEXT_DRAW;
-            return 
-                1
-            ;
-        }
+    if (DoesCurtainExists (playerid)) {
+        PlayerTextDrawDestroy (playerid, ___curtain_td_var_ [playerid] [0]);
+        ___curtain_td_var_ [playerid] [0] = INVALID_PLAYER_TEXT_DRAW;
+        return 
+            1
+        ;
     }
     return
         0
