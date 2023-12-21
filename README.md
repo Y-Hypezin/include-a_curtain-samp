@@ -1,8 +1,8 @@
 # a_curtain include for San Andreas Multiplayer (SA:MP)
 
-| file name | Latest release | Version | Collaborators |
-| :---: | :---: | :---: | :---: |
-| a_curtain | [check](https://github.com/zHypezinXzL/include-a_curtain-samp/releases/tag/a_curtain-v1.2.3.1-support-omp) | v1.2.3.1 | [pushline](https://github.com/pushline) |
+| file name | Latest release | Version | WIKI | Collaborators |
+| :---: | :---: | :---: | :---: | :---: |
+| a_curtain | [check](https://github.com/zHypezinXzL/include-a_curtain-samp/releases/tag/a_curtain-v1.2.3.1-support-omp) | v1.2.3.1 | [wiki](https://github.com/zHypezinXzL/include-a_curtain-samp/wiki) | [pushline](https://github.com/pushline) |
 
 -------------------------------------------------
 
